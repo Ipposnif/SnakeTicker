@@ -1,7 +1,7 @@
 ![](https://www.ipposnif.com/download/snaketickervideo.gif)  
 
 If you want to keep updated with the number of visitors to your website, the amount of the last order received, or the days elapsed since the last bug found, this ticker gives to your most meaningful number a special standoff.  
-In this test configuration, the ticker will show the current exchange rate BTCEUR.  
+In this test configuration, the ticker will show the current BTCEUR exchange rate .  
 
 **What you need** 
 * Arduino board (the ticker has been tested using Arduino UNO and Arduino Nano, but it should work with every Arduino version).
@@ -35,7 +35,7 @@ The Carriage Return and Line Feed characters are discarded.
 **Security**  
 In the default configuration of this ticker, the web page returning the data must be a public page. The security is simply demanded to the complexity of the page name.   
 To prevent a visitor from listing the pages of your public folder, the web folder should have a default page or in the alternative, the folder should be configured in IIS with Directory Browsing OFF. If the web site, like in this example, is protected by SSL, the page name will be encrypted together with the data.  
-Anyway, don’t use this ticker to retrieve and show classified data!  
+Anyway, don’t use this ticker to retrieve and show classified data :)
 
 **Credits**  
 The led module is controlled using the library https://github.com/wayoda/LedControl  
