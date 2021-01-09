@@ -1,4 +1,4 @@
-![](https://www.ipposnif.com/download/snaketickervideo.gif)  
+![](https://www.ipposnif.com/img/github/snaketicker.gif)  
 
 If you want to keep updated with the number of visitors to your website, the amount of the last order received, or the days elapsed since the last bug found, this ticker gives to your most meaningful number a special standout.  
 In this test configuration, the ticker will show the current BTCEUR exchange rate .  
