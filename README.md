@@ -15,7 +15,7 @@ In this test configuration, the ticker will show the current BTCEUR exchange rat
 Connect the led module to Arduino like explained in this article: https://blog.circuits4you.com/2016/04/arduino-display-module-7-segment-8.html  
 Connect Arduino to your PC with the USB cable.  
 From the Arduino IDE, open Tools -> Library Manager and search and install the library LedControl (the one from Eberhard Fahle).  
-Unzip the code of this repository to C:\Users\{usr}\Documents\Arduino\SnakeTicker  
+Unzip the code of this repository to C:\Users\\{usr}\Documents\Arduino\SnakeTicker  
 From the Arduino IDE, open the file SnakeTicker.ino and select Upload from the menu Sketch. This will compile the program and upload it to your Arduino board.  
 From the Arduino IDE, open menu Tools and read the COM port of your PC where the Arduino board is connected. In this example the port is COM4.  
 Edit the file command.bat and replace COM4 with your port.  
