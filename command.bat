@@ -1,9 +1,8 @@
-call C:\Users\Mosta\Documents\Arduino\SnakeTicker\winhttpjs.bat "https://www.ipposnif.com/3B570Za8ob1TJx6OQHS3.asp" -method POST -saveTo C:\Users\Mosta\Documents\Arduino\SnakeTicker\res.txt
-
-
-set /p message=<C:\Users\Mosta\Documents\Arduino\SnakeTicker\res.txt
+call %~dp0\winhttpjs.bat "https://www.ipposnif.com/btceur_3b570za8ob1.asp" -method POST -saveTo %~dp0\httpresponse.txt
+set /p message=<%~dp0\httpresponse.txt
 (
 timeout /t 5 > nul
 echo %message%
 cmd /c taskkill /f /IM Plink.exe
+del %~dp0\httpresponse.txt
 ) | plink -batch serial COM4 -sercfg 9600,8,1,n,N'
