@@ -12,8 +12,7 @@ In this test configuration, the ticker will show the current BTCEUR exchange rat
 
 
 **How to set up the ticker**  
-Connect the led module to Arduino like explained in this article: 
-https://blog.circuits4you.com/2016/04/arduino-display-module-7-segment-8.html
+Connect the led module to Arduino like explained in this article: https://blog.circuits4you.com/2016/04/arduino-display-module-7-segment-8.html  
 Connect Arduino to your PC with the USB cable.  
 From the Arduino IDE, open Tools -> Library Manager and search and install the library LedControl (the one from Eberhard Fahle).  
 Unzip the code of this repository to C:\Users\{usr}\Documents\Arduino\SnakeTicker  
