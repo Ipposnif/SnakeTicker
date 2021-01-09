@@ -12,7 +12,7 @@ In this test configuration, the ticker will show the current BTCEUR exchange rat
 
 
 **How to set up the ticker**  
-Connect the led module to Arduino like in the picture below.  
+Connect the led module to Arduino like explained in this article: https://blog.circuits4you.com/2016/04/arduino-display-module-7-segment-8.html
 Connect Arduino to your PC with the USB cable.  
 From the Arduino IDE, open Tools -> Library Manager and search and install the library LedControl (the one from Eberhard Fahle).  
 Unzip the code of this repository to C:\Users\{usr}\Documents\Arduino\SnakeTicker  
@@ -28,7 +28,7 @@ When everything is ready you can automate the execution of command.bat with Wind
 In this example, the data is retrieved from the web page https://www.ipposnif.com/btceur_3b570za8ob1.asp of my personal website.  
 You can change the URL from command.bat.  
 Only the first 8 chars returned by the web page will show on the ticker.  
-The led module is capable to show only the characters: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, A, b, c, d, E, F, H, L, P, ., -, _, {space}  
+The led module is capable to show only the characters: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, A, b, c, d, E, F, H, L, P, ., -, underscore, space
 The full stop is considered always a decimal separator and it is shown together with the preceding character.  
 The Carriage Return and Line Feed characters are discarded.  
 
